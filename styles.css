@@ -1,0 +1,236 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header span {
+    font-size: 1.2rem;
+}
+
+/* Estilos para botones */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.mensaje {
+    margin-top: 30px;
+}
+
+.mensaje p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.mensaje button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.mensaje button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para la galería de imágenes */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+    padding: 0 10px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galeria img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos específicos para login.php */
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.login-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para registro.php */
+#registro-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#registro-form label {
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 15px;
+}
+
+#registro-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#registro-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#registro-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+#listado-table {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#listado-table th, 
+#listado-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#listado-table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+#listado-table td {
+    background-color: #fff;
+    font-size: 0.9rem;
+}
+
+#listado-table img {
+    width: 80px; /* Imagen más pequeña */
+    height: auto;
+    border-radius: 5px;
+}
+
+
+#listado-table td button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#listado-table td button:hover {
+    background-color: #218838;
+}
